@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ravmjkbpojg21"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="উপন্যাস"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        android:textColor="@color/slate_blue"/>
+
+    <TableRow>
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="শঙ্খনীল কারাগার"
+            android:id="@+id/shonkhonil"
+            android:layout_gravity="left"
+            android:textColor="@color/pale_violet_red"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_gravity="left"
+            android:layout_height="wrap_content"
+            android:text="নন্দিত নরকে"
+            android:id="@+id/nondito"
+            android:textColor="@color/pale_violet_red"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="কবি"
+            android:id="@+id/kobi"
+            android:textColor="@color/pale_violet_red"
+            android:layout_gravity="left"/>
+
+    </TableRow>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="গল্পগ্রন্থ"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        android:textColor="@color/slate_blue"/>
+
+    <TableRow>
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="left"
+            android:text="কাঠপেন্সিল"
+            android:id="@+id/kath"
+            android:textColor="@color/pale_violet_red"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_gravity="left"
+            android:layout_height="wrap_content"
+            android:text="দেখা না দেখা"
+            android:id="@+id/dekha"
+            android:textColor="@color/pale_violet_red"
+            />
+
+
+    </TableRow>
+
+</TableLayout>
